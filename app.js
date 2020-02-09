@@ -19,7 +19,7 @@ app.get('/', function (req, res) {
 
 app.use('/', shorten);
 
-app.listen(app.get('port'), () => {
+app.listen(app.get('port'), '0.0.0.0', () => {
   console.log('listening on port ' + app.get('port'));
 });
 
