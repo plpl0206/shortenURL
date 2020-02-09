@@ -1,0 +1,19 @@
+{
+    "redis":{
+        "host":"ec2-3-214-180-35.compute-1.amazonaws.com" ,
+        "port":"22609", 
+        "password":"pf6c96616371a28894c77f42614b2e7148320ee6b217da307c98fa64053a8a0eb"
+    },
+    "MySQL":{
+        "database":"heroku_93583bce1a26dd9",
+        "host":"us-cdbr-iron-east-04.cleardb.net",
+        "username":"b147da68c60dfb",
+        "password":"c56fe1f5",
+        "pool": {
+            "max": 5,
+            "min": 0,
+            "idle": 30000
+        },
+        "dialect": "mysql"
+    }
+}

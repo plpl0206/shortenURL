@@ -1,0 +1,19 @@
+<%- include('header'); -%>
+
+<h2>
+	Shorten your links.
+</h2>
+
+<p class="lead">
+	Paste a long URL below and we'll shorten it for you.
+</p>
+
+<form action="/shorten" method="post">
+	<div class="input-group">
+		<input type="text" class="form-control form-control-lg" name="url" placeholder="Your long URL here" required>
+		<span class="input-group-btn">
+			<button class="btn btn-primary btn-lg" type="submit">get short url</button>
+		</span>
+	</div>
+</form>
+
