@@ -60,9 +60,6 @@ footer {
 	.main-wrapper{
         top:0;
     }
-	.footer-wrapper {
-		display: table-row;
-	}
 
 	header {
         height: 130px;
@@ -70,7 +67,5 @@ footer {
 	main {
         float: center;
     }
-	footer {
-		display: table-cell;
-	}
+	
 }
